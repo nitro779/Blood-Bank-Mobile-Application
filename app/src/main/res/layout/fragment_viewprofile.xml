@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/grad3">
+
+
+        <TextView
+            android:id="@+id/ProfileText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito_bold"
+            android:gravity="center"
+            android:text="Profile"
+            android:textAlignment="center"
+            android:textColor="#FCF5F5"
+            android:textSize="34dp" />
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@id/ProfileText"
+            android:layout_marginLeft="145dp"
+            android:background="@drawable/edit_text_grad"
+            android:src="@drawable/ic_profile" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="NotSibling">
+            <TextView
+                android:id="@+id/profile_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="33dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="First Name"
+                android:textColor="#F5F2F2"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/profile_text1_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="37dp"
+                android:layout_toRightOf="@id/profile_text1"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="#F5F2F2"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/profile_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_text1_name"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Last Name"
+                android:textColor="#F1EDED"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/profile_text2_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_text2"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="-33dp"
+                android:layout_toRightOf="@id/profile_text2"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="#F7EEEE"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/profile_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_text2_name"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="45dp"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Email"
+                android:textColor="#F8F7F7"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/profile_text3_name"
+                android:layout_width="267dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_text3"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="-32dp"
+                android:layout_toRightOf="@id/profile_text3"
+                android:fontFamily="@font/marko_one"
+                android:textColor="#F8F2F2"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/profile_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_text3_name"
+                android:layout_marginLeft="-141dp"
+                android:layout_marginTop="35dp"
+                android:layout_toRightOf="@id/profile_text1"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Blood group"
+                android:textColor="#F7F2F2"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/profile_text4_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_text4"
+                android:layout_marginLeft="38dp"
+                android:layout_marginTop="-34dp"
+                android:layout_toRightOf="@id/profile_text4"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="#F7F2F2"
+                android:textSize="25sp" />
+        \</RelativeLayout>
+    </ScrollView>
+
+    </RelativeLayout>

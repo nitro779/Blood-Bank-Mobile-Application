@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/col2">
+    <TextView
+        android:id="@+id/donor_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Become Donor"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/donor_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/donor_text"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="-67dp"
+        android:text="Choose ur Blood Group"
+        android:textAlignment="center"
+        android:textColor="@color/col9"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:layout_width="110dp"
+        android:layout_height="46dp"
+        android:layout_below="@+id/donor_text2"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="100dp" />
+
+</RelativeLayout>
